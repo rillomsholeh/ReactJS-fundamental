@@ -1,11 +1,17 @@
 import React from "react";
+import { data } from "./components/dataDummy";
 
 //Import Components
+import List from "./components/list";
 
 function Props() {
   return (
     // Code Inside div
-    <div></div>
+    <div>
+      <List carName="mobil Lamborgini" />
+      <List carName="Mobil Bmw" />
+      <List carName="mobil Toyota" />
+    </div>
   );
 }
 
