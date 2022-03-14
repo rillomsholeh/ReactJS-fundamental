@@ -6,6 +6,10 @@ function EmbedExpression() {
     return "Batch30-Dumbways.id";
   }
 
+  function embed() {
+    return "getEmbedExpression";
+  }
+
   //Create a variable here
   const Nama = "Sholeh";
   let jurusanKuliah = "Tehnik Informatika";
@@ -16,6 +20,7 @@ function EmbedExpression() {
   return (
     // Code Inside div
     <div>
+      <h2>hallo {embed()}</h2>
       <h3>Muhammad {Nama}</h3>
       <h1>{jurusanKuliah}</h1>
       <p>{getBatch()}</p>
