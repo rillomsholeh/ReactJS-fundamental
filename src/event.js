@@ -19,6 +19,8 @@ function Event() {
       <button onClick={() => alert(lastName)}>LastName</button>
       <br />
       <button onClick={() => Greeting()}>Greeting</button>
+      <br />
+      <button onClick={() => alert("hallo muhammad sholeh")}>My Name</button>
     </div>
   );
 }
