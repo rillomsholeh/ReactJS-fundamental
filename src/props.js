@@ -1,5 +1,4 @@
 import React from "react";
-import { data } from "./components/dataDummy";
 
 //Import Components
 import List from "./components/list";
