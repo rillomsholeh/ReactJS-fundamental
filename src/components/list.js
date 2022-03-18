@@ -2,15 +2,14 @@
 import React from "react";
 
 //props ini adalah property bisa di ubah dengan nama apa saja
-const list = ({ Name, Email }) => {
+const List = (props) => {
   return (
     <div>
       <ul>
-        <li>{Name}</li>
-        <li>{Email}</li>
+        <li>{props.carName}</li>
       </ul>
     </div>
   );
 };
 
-export default list;
+export default List;

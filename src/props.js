@@ -7,9 +7,11 @@ function Props() {
   return (
     // Code Inside div
     <div>
-      <List carName="mobil Lamborgini" />
-      <List carName="Mobil Bmw" />
-      <List carName="mobil Toyota" />
+      {/* <List Name="robby" Email="robby@mail.com" type="number" /> */}
+
+      <List carName="BMW" />
+      <List carName="Lamborgini" />
+      <List carName="Perari" />
     </div>
   );
 }
