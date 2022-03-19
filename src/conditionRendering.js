@@ -22,14 +22,16 @@ function GuestPage(props) {
 
 function ConditionRenderin() {
   //init State
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
+
+  console.log("setIsLogin:", isLogin);
 
   return (
     // Code Inside div
     <div>
       {/* conditional logic rendering */}
 
-      {isLogin ? <PrivatePage logout={() => setIsLogin(!isLogin)} /> : <GuestPage login={() => setIsLogin(!isLogin)} />}
+      {isLogin ? <PrivatePage logout={() => setIsLogin(!true)} /> : <GuestPage login={() => setIsLogin(!false)} />}
     </div>
   );
 }
