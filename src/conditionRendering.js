@@ -27,10 +27,8 @@ function ConditionRenderin() {
   console.log("setIsLogin:", isLogin);
 
   return (
-    // Code Inside div
     <div>
-      {/* conditional logic rendering */}
-
+      conditional logic rendering
       {isLogin ? <PrivatePage logout={() => setIsLogin(!true)} /> : <GuestPage login={() => setIsLogin(!false)} />}
     </div>
   );
